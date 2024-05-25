@@ -1,0 +1,112 @@
+@media (orientation: portrait) and (max-width: 450px) {
+    
+}
+body{
+    background-color: #ECECEC;
+}
+.test{
+    margin-top: 10px;
+    border-radius: 40%;
+    margin-bottom:45px;
+}
+.write{
+    margin-top: 60px;
+}
+.one{
+    background-color: rgb(61,123,61, 0.5);
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+}
+.inf{
+    display: inline;
+   
+    position: absolute;
+   left: 30%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}    
+.otzv1{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left:20px;
+}
+.otzv2{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
+.otzv3{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
+.otzv4{
+    border: 3px solid rgb(61,123,61,0.5);
+    width: 40%;
+    margin-left: 20px;
+}
+    
+.Ot{
+    text-align: center;
+}
+    
+.Name{
+    text-align: right;
+    margin-right: 10px;
+}
+    
+
+    
+
+.information{
+    text-decoration: none; 
+    padding-left: 70px ;
+    padding-right: 70px;
+    color: black;
+    
+
+}
+
+.otz {
+    text-decoration: none;
+    padding-left: 70px ;
+    padding-right: 70px;
+    color: black;
+}
+.block {
+    border-bottom: 4px solid grey;
+}
+.button-wrapper{
+    text-align: center;
+    border: 3px solid black;
+    width: 25%;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: auto;
+
+}
+
+.button-wrapper:hover{
+    box-shadow: 2px 2px 10px 8px #A2E0BB,  1px 1px 4px 1px #FDFCA9 inset, 1px 1px 2px 1px #FFFFFF42;
+
+}
