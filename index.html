@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eye Test</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    
+    <header>
+    <div class="one">
+      <a href="index.html"><img class="logo" src="https://github.com/Ghost23245/Project1/blob/main/Group%204.png?raw=true"></a>
+    
+      <div class="inf">
+      <a class="information" style="font-size: 20px;" href="index2.html">Информация</a>
+      <a class="otz" style="font-size: 20px;" href="index3.html">Отзывы</a>
+    </div>
+
+    </div>
+    </header>
+    <main>
+      <div class="block">
+      <div class="write"><p style="text-align: center;"><input class="a1" style="width: 500px; height: 70px; text-align: center;font-size: 20px; opacity: 0.5;" placeholder="Какое число вы здесь видите?"></p>
+      </div>
+    <p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/feb1c9576d7bafd04ab0883e9a6556a2_cropped_510x510-transformed%20(1).png?raw=true"></p>
+  </div>
+  <div class="block">
+    <div class="write"><p style="text-align: center;"><input class="a2" style="width: 500px; height: 70px; text-align: center;font-size: 20px; opacity: 0.5;" placeholder="Какое число вы здесь видите?"></p>
+    </div>
+  <p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/src/images%20(1).jpg?raw=true"></p>
+</div>
+<div class="block">
+  <div class="write"><p style="text-align: center;"><input class="a3" style="width: 500px; height: 70px; text-align: center;font-size: 20px; opacity: 0.5;" placeholder="Какое число вы здесь видите?"></p>
+  </div>
+<p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/src/images%20(2).jpg?raw=true"></p>
+</div>
+<div class="block">
+  <div class="write"><p style="text-align: center;"><input class="a4" style="width: 500px; height: 70px; text-align: center;font-size: 20px; opacity: 0.5;" placeholder="Какое число вы здесь видите?"></p>
+  </div>
+<p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/src/images%20(4).jpg?raw=true"></p>
+</div>
+<div class="block">
+  <div class="write"><p style="text-align: center;"><input class="a5" style="width: 500px; height: 70px; text-align: center;font-size: 20px; opacity: 0.5;" placeholder="Какое число вы здесь видите?"></p>
+  </div>
+<p style="text-align: center;"><img class="test" src="https://github.com/Ghost23245/Project1/blob/main/src/images.jpg?raw=true"></p>
+</div>
+
+<a class="button-wrapper">
+  <span class="button bg-yellow-500 px-16 py-4 rounded-full uppercase">Подвести результат<span>
+</a>
+
+<script>
+
+
+  document.querySelector(".button-wrapper").addEventListener("click",function(){
+    let score = 0;
+    let a1 = document.querySelector(".a1").value;
+    if (a1 == "15"){
+      score += 1;
+    }
+    let a2 = document.querySelector(".a2").value;
+    if (a2 == "136"){
+      score += 1;
+    }
+    let a3 = document.querySelector(".a3").value;
+    if (a3 == "9"){
+      score += 1;
+    }
+    let a4 = document.querySelector(".a4").value;
+    if (a4 == "9"){
+      score += 1;
+    }
+    let a5 = document.querySelector(".a5").value;
+    if (a5 == "26"){
+      score += 1;
+    }
+  alert("Результат: "+ score + " из 5")
+  })
+
+
+
+</script>
+    
+    </main>
+  </body>
+</html>
